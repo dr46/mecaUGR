@@ -3,9 +3,9 @@
     "path": "~/Congresos/CIINECO/capitulos/meca/mecaUGR/mecaUGR.R",
     "project_path": "mecaUGR.R",
     "type": "r_source",
-    "hash": "3851859320",
+    "hash": "0",
     "contents": "",
-    "dirty": false,
+    "dirty": true,
     "created": 1713890639813.0,
     "source_on_save": false,
     "relative_order": 1,
@@ -13,7 +13,7 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "0,18",
+        "cursorPosition": "2,0",
         "scrollLine": "0"
     },
     "folds": "",
@@ -21,7 +21,7 @@
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1713890674284,
+    "last_content_update": 1713891970551,
     "read_only": false,
     "read_only_alternatives": []
 }
