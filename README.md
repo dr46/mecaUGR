@@ -1,5 +1,5 @@
 ---
-title: 'Exploración de las competencias mecanográficas en la Universidad de Granada: un estudio prospectivo'
+title: 'mecaUGR: Exploración de las competencias mecanográficas en la Universidad de Granada: un estudio prospectivo'
 output:
   html_document: default
   word_document: default
@@ -30,8 +30,14 @@ Este proyecto tiene como
 
 # Archivos de código
 
-Están contenidos en la carpeta *stx*.
+El archivo de código principal de este proyecto (el documento *maestro*) es el archivo [mecaUGR.R](https://osf.io/v298a). La reproducción de los análisis se ha de llevar a cabo con este documento abierto en la consola de R. Está diseñado para que se invoquen los archivos de código uno por uno en una sesión viva de R. Los resultados se irán proyectando sobre la consola de R y los gráficos se irán imprimiendo en un dispositivo gráfico de R.
+
+El resto de archivos de código de este proyecto están contenidos en la carpeta *stx*. Aquí aparece una breve descripción del contenido de cada uno de los archivos de código:
+
+- [01_descriptivos.R](https://osf.io/2y68c): este archivo explora las variables cuantitativas y categóricas del arhivo de datos [meca.csv](https://osf.io/ftkuj).
+
+- [02_tc.R](https://osf.io/hk65j): este archivo genera tablas de contingencia y gráficos que representan tales resultados.
 
 # Archivos de datos
 
-Los datos brutos de este proyecto están contenidos en el archivo [meca.csv](https://osf.io/ftkuj). Nótese que este documento podría no visualizarse correctamente en la web porque está codificado con el formato "UTF-8".
+Los datos brutos de este proyecto están contenidos en el archivo [meca.csv](https://osf.io/ftkuj). Nótese que este documento podría no visualizarse correctamente en la web porque está codificado con el formato "UTF-8". En cualquiera de los casos, los datos son correctamente visibles al importar el archivo con R.
