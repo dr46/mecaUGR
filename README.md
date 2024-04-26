@@ -40,13 +40,21 @@ El resto de archivos de código de este proyecto están contenidos en la carpeta
 
 - [03_rl.R](https://osf.io/2pj46): este archivo de código genera el gráfico de dispersión que ponte en relación la velocidad y la precisión de mecanografiado. También estima la correlación de Pearson y el modelo de regresión lineal simple que relaciona a ambas variables.
 
+- [04_cuando.R]()
+
 # Archivos de datos
 
 Todos los archivos de datos se encuentran contenidos en la carpeta *dat*.
 
 Los datos brutos de este proyecto están contenidos en el archivo [meca.csv](https://osf.io/ftkuj). Nótese que este documento podría no visualizarse correctamente en la web porque está codificado con el formato "UTF-8". En cualquiera de los casos, los datos son correctamente visibles al importar el archivo con R.
 
-Para re-codificar las respuestas a la variable *nivel* se creó nuna nueva base de datos que está contenida en el archivo de datos [snem.csv]()
+Para re-codificar las respuestas a la variable *nivel* se creó una nueva base de datos que está contenida en el archivo de datos [snem.csv](https://osf.io/yre5h). En esta base de datos, la variable *caso* puede utilizarse para vincular esta tabla de datos con la base de datos [meca.csv](https://osf.io/ftkuj). La columna *snm* se creó para identificar el nivel educativo mínimo en que cada participante considera deseable el aprendizaje de la mecanografía dentro del ámbito de la enseñanza formal. Incluye tres posibles valores:
+
+- Primaria: esta categoría hace referencia a propuestas de enseñanza de la mecanografía en el colegio o en la enseñanza primaria obligatoria.
+
+- ESO: esta categoría hace referencia a propuestas relacionadas con la enseñanza secundaria obligatoria.
+
+- Post-obligatoria: esta categoría hace referencia a propuestas en las que se considera deseable que se aprenda a mecanografía tras la enseñanza secundaria obligatoria.
 
 
 

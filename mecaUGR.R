@@ -13,6 +13,5 @@ source("stx/02_tc.R", echo = T, encoding = "UTF-8")
 # Relación entre velocidad y precisión de mecanografiado
 source("stx/03_rl.R", echo = T, encoding = "UTF-8")
 
-# Recodificación de sugerencia del nivel mínimo al que se debería comenzar con 
-# la enseñanza del aprendizaje de la mecanografía
-read.csv("dat/snem.csv", sep=";", stringsAsFactors=TRUE)
+# ¿Cuándo comenzar a aprender mecanografía? 
+source("stx/04_cuando.R", echo = T, encoding = "UTF-8")
