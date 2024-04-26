@@ -32,7 +32,7 @@ caso;caso.o;grado;fecha;mtd;msm;vel;pre;curso;donde;util;aprender;empleo;formal;
 31;31;Pedagogía;miércoles, 6 de marzo de 2024, 16:53;Sí;Sí;37,6;95,4;Sí;En casa.;Sí;Sí;Sí;Sí;En primaria, a comienzos, para que sepan usarlo correctamente y de forma automática.;Sí;En el banco y el médico
 32;32;Pedagogía;miércoles, 6 de marzo de 2024, 17:54;No;No;48;99;No;;Sí;Sí;Sí;Sí;Se podría establecer pequeños cursos en epata primaria y cursos de especialización en etapa secundaria, con el fin de llegar con más experiencia y habilidad a la etapa de bachiller o formación profesional.;No;
 33;33;Pedagogía;miércoles, 6 de marzo de 2024, 16:55;No;No;42,6;96,6;No;;Sí;Sí;Sí;No;;No;
-34;1;Psicología;miércoles, 3 de abril de 2024, 21:29;Sí;No;44,4;0,97;No;;Sí;Sí;Sí;Sí;Alrededor de 5º/6º de primaria, cuando los niños comienzan a manejarse con los dispositivos informáticos para realizar trabajos escolares.;No;
+34;1;Psicología;miércoles, 3 de abril de 2024, 21:29;Sí;No;44,4;97;No;;Sí;Sí;Sí;Sí;Alrededor de 5º/6º de primaria, cuando los niños comienzan a manejarse con los dispositivos informáticos para realizar trabajos escolares.;No;
 35;2;Psicología;sábado, 6 de abril de 2024, 13:47;Sí;Sí;67;95,7;No;;Sí;No;Sí;Sí;Considero que debería enseñarse durante la Educación Primaria.;No;
 36;3;Psicología;jueves, 11 de abril de 2024, 14:40;No;Sí;69;97,1;No;;Sí;Sí;Sí;Sí;Creo que se debería enseñar en los cursos de la ESO, pues son los cursos obligatorios y sería útil que después de cursarlos, los alumnos sepan mecanografiar independiente de si cursan Bachillerato, un FP, etc.;No;
 37;4;Psicología;miércoles, 3 de abril de 2024, 16:07;No;No;33,8;94,4;Sí;Colegio;Sí;No;Sí;Sí;En el colegio o Instituto;No;
@@ -41,21 +41,21 @@ caso;caso.o;grado;fecha;mtd;msm;vel;pre;curso;donde;util;aprender;empleo;formal;
 40;7;Psicología;miércoles, 3 de abril de 2024, 09:24;Sí;No;55,6;98,5;No;;Sí;Sí;Sí;Sí;En la ESO.;Sí;En la dermatóloga que escribió rápido y mal por no mirar.
 41;8;Psicología;miércoles, 3 de abril de 2024, 09:23;No;Sí;63,8;96,1;No;;Sí;Sí;Sí;Sí;En el instituto como cualquier otra asignatura.;Sí;Hospitales, recepcionistas en dentistas, etc.
 42;9;Psicología;miércoles, 3 de abril de 2024, 18:52;No;No;60;98;No;;Sí;Sí;Sí;Sí;En la educación secundaria;No;
-43;10;Psicología;lunes, 8 de abril de 2024, 21:28;No;Sí;0,93;75;No;no;Sí;Sí;Sí;Sí;no;Sí;En el médico de cabecera
+43;10;Psicología;lunes, 8 de abril de 2024, 21:28;No;Sí;;75;No;no;Sí;Sí;Sí;Sí;no;Sí;En el médico de cabecera
 44;11;Psicología;jueves, 4 de abril de 2024, 19:54;Sí;No;47,8;97,5;No;;Sí;Sí;Sí;Sí;Desde quinto o sexto de primaria, ya que no es una habilidad muy díficil de aprender y puede servir de cara al futuro.;No;
-45;12;Psicología;lunes, 8 de abril de 2024, 11:30;No;Sí;49,4;0,96;Sí;En el instituto;Sí;Sí;Sí;Sí;En el instituto creo que es una época buena, ya que cada vez se van haciendo más a las tecnologías y empiezan a utilizar los ordenadores para hacer trabajos;No;
+45;12;Psicología;lunes, 8 de abril de 2024, 11:30;No;Sí;49,4;96;Sí;En el instituto;Sí;Sí;Sí;Sí;En el instituto creo que es una época buena, ya que cada vez se van haciendo más a las tecnologías y empiezan a utilizar los ordenadores para hacer trabajos;No;
 46;13;Psicología;lunes, 8 de abril de 2024, 11:26;No;No;41;98,1;No;;Sí;Sí;Sí;Sí;ESO;No;
-47;14;Psicología;lunes, 8 de abril de 2024, 11:07;No;No;44;0,99;No;;Sí;Sí;Sí;Sí;ESO;No;
-48;15;Psicología;sábado, 13 de abril de 2024, 12:12;Sí;No;43,2;0,98;No;;Sí;Sí;Sí;Sí;Alrededor de secundaria, ya que es cuando más se empiezan a utilizar los trabajos por ordenador. Podría facilitar el trabajo a los niños.;No;
+47;14;Psicología;lunes, 8 de abril de 2024, 11:07;No;No;44;99;No;;Sí;Sí;Sí;Sí;ESO;No;
+48;15;Psicología;sábado, 13 de abril de 2024, 12:12;Sí;No;43,2;98;No;;Sí;Sí;Sí;Sí;Alrededor de secundaria, ya que es cuando más se empiezan a utilizar los trabajos por ordenador. Podría facilitar el trabajo a los niños.;No;
 49;16;Psicología;sábado, 6 de abril de 2024, 13:49;Sí;Sí;78,8;99;Sí;En una escuela oficial de mi pueblo;Sí;Sí;No;Sí;Durante la Educación Primaria;Sí;A la hora de ir al médico o cuando intentan registrar la información que vas contando, el hecho de no saber mecanografiar indica una escritura lenta en el teclado.
 50;17;Psicología;domingo, 7 de abril de 2024, 23:45;Sí;Sí;38,8;97,5;No;;Sí;Sí;Sí;Sí;Creo que debería comenzar a enseñarse más o menos en la ESO;No;
 51;18;Psicología;lunes, 8 de abril de 2024, 10:18;No;No;44,2;96,2;No;;Sí;Sí;Sí;Sí;En primaria y la ESO;No;
 52;19;Psicología;lunes, 8 de abril de 2024, 11:07;No;No;49,5;95,5;No;;Sí;Sí;Sí;Sí;Secundaria y primaria;No;
 53;20;Psicología;domingo, 7 de abril de 2024, 20:40;Sí;Sí;43;96,2;No;;Sí;Sí;No;Sí;Pienso que la mecanografía se podría comenzar a enseñar en educación primaria introduciendo programas interactivos o juegos diseñados para introducir conceptos básicos de esta y posteriormente en secundaria desarrollar habilidades más avanzadas.;No;
-54;21;Psicología;martes, 2 de abril de 2024, 22:27;Sí;No;48,4;0,99;No;;Sí;Sí;Sí;Sí;1 hora a la semana en las aulas de educación primaria.;No;
+54;21;Psicología;martes, 2 de abril de 2024, 22:27;Sí;No;48,4;99;No;;Sí;Sí;Sí;Sí;1 hora a la semana en las aulas de educación primaria.;No;
 55;22;Psicología;lunes, 8 de abril de 2024, 10:19;Sí;No;37,4;97,4;Sí;En la ESO, un refesor nos dió varias clases sobre mecanografía;Sí;Sí;Sí;Sí;En la ESO;No;
 56;23;Psicología;domingo, 7 de abril de 2024, 11:40;No;No;29,2;95,4;No;;No;Sí;Sí;Sí;Supongo que se debería impartir en secundaria teniendo en cuenta que se hacen cosas más prácticas y cada vez se utilizan más las tecnologías.;No;
-57;24;Psicología;sábado, 6 de abril de 2024, 19:35;No;No;51,8;0,98;No;;Sí;Sí;Sí;Sí;En el instituto.;No;
+57;24;Psicología;sábado, 6 de abril de 2024, 19:35;No;No;51,8;98;No;;Sí;Sí;Sí;Sí;En el instituto.;No;
 58;25;Psicología;miércoles, 3 de abril de 2024, 01:58;No;Sí;24,4;94,6;Sí;En casa.;Sí;No;Sí;Sí;Con 10 años, en 5º de primaria;No;
 59;26;Psicología;jueves, 11 de abril de 2024, 23:00;Sí;Sí;75,8;99;No;;Sí;Sí;Sí;Sí;En el instituto (Educación Secundaria Obligatoria) podría realizarse en las clases de Tutoría o de Tecnología.;No;
 60;27;Psicología;miércoles, 3 de abril de 2024, 11:51;Sí;Sí;63,8;98,5;Sí;Online por mi cuenta y en el instituto (4º de ESO en la asignatura de informática);Sí;Sí;Sí;Sí;Creo que en la ESO, en la asignatura de informática (TIC) podía ser interesante;Sí;Los dependientes de tiendas tipo Leroy Merlin, que están en los escritorios en los que se diseñan cocinas y muebles. En agencias de viajes. En las estaciones de registro de campeonatos internacionales
@@ -102,7 +102,7 @@ caso;caso.o;grado;fecha;mtd;msm;vel;pre;curso;donde;util;aprender;empleo;formal;
 101;41;Logopedia;miércoles, 20 de marzo de 2024, 15:25;No;No;29,6;96,7;No;;Sí;Sí;No;No;;No;
 102;42;Logopedia;martes, 19 de marzo de 2024, 10:17;No;No;42,6;98;No;;Sí;Sí;Sí;Sí;Educación primaria;Sí;En el ayuntamiento y en el centro médico.
 103;43;Logopedia;miércoles, 20 de marzo de 2024, 17:02;Sí;No;41;94,8;No;;Sí;Sí;Sí;No;;No;
-104;44;Logopedia;jueves, 21 de marzo de 2024, 10:29;Sí;Sí;46,4;46,4;No;no;Sí;Sí;Sí;Sí;Bachillerato;Sí;Medico
+104;44;Logopedia;jueves, 21 de marzo de 2024, 10:29;Sí;Sí;46,4;;No;no;Sí;Sí;Sí;Sí;Bachillerato;Sí;Medico
 105;45;Logopedia;martes, 19 de marzo de 2024, 10:23;Sí;Sí;50;98,2;No;;Sí;Sí;Sí;Sí;Creo que en secundaria se debería de dar algún curso ya que muchos estudiantes después de la ESO se insertan en el mundo laboral, o hacer un Formación Profesional.;No;
 106;46;Logopedia;viernes, 5 de abril de 2024, 12:08;Sí;No;38,2;96,5;No;;Sí;Sí;Sí;Sí;Bachillerato y ESO;No;
 107;47;Logopedia;miércoles, 20 de marzo de 2024, 15:54;No;No;54;99;No;;Sí;Sí;No;No;;No;

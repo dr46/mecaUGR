@@ -37,3 +37,6 @@ barplot(utilidad.p,
         ylim = c(0,60),
         axes = F)
 axis(2, las=2)
+
+
+rm(saber, saber.p, utilidad, utilidad.p)

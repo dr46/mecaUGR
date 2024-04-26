@@ -41,3 +41,7 @@ El resto de archivos de código de este proyecto están contenidos en la carpeta
 # Archivos de datos
 
 Los datos brutos de este proyecto están contenidos en el archivo [meca.csv](https://osf.io/ftkuj). Nótese que este documento podría no visualizarse correctamente en la web porque está codificado con el formato "UTF-8". En cualquiera de los casos, los datos son correctamente visibles al importar el archivo con R.
+
+# Figuras
+
+Las figuras generadas en este proyecto se encuentran, en formato vectorial (documentos PDF), en la carpeta *fig*.
