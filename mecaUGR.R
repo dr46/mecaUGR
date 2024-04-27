@@ -15,3 +15,7 @@ source("stx/03_rl.R", echo = T, encoding = "UTF-8")
 
 # ¿Cuándo comenzar a aprender mecanografía? 
 source("stx/04_cuando.R", echo = T, encoding = "UTF-8")
+
+# ¿Dónde has expermientado merama en la calidad del servicio como consecuencia
+# de incompetencia mecanográfica?
+source("stx/05_donde.R", echo = T, encoding = "UTF-8")

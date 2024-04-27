@@ -40,7 +40,9 @@ El resto de archivos de código de este proyecto están contenidos en la carpeta
 
 - [03_rl.R](https://osf.io/2pj46): este archivo de código genera el gráfico de dispersión que ponte en relación la velocidad y la precisión de mecanografiado. También estima la correlación de Pearson y el modelo de regresión lineal simple que relaciona a ambas variables.
 
-- [04_cuando.R]()
+- [04_cuando.R](https://osf.io/wahvf). Este archivo analiza la tabla [snem.csv](https://osf.io/yre5h) que contiene la propuesta que plantean los participantes del estudio en lo relativo al aprendizaje de la mecanografía en el contexto educativo formal.
+
+- [05_donde.R]()
 
 # Archivos de datos
 
@@ -56,6 +58,7 @@ Para re-codificar las respuestas a la variable *nivel* se creó una nueva base d
 
 - Post-obligatoria: esta categoría hace referencia a propuestas en las que se considera deseable que se aprenda a mecanografía tras la enseñanza secundaria obligatoria.
 
+Por su parte, para recoger la recodificación de la variable *sevicio.donde* se creó una nueva tabla que se almacenó en el archivo [dems.csv](). Esta tabla tiene dos columnas: *caso* y *demc*. La columna *demc* indica el lugar en el que el participante experimentó un declive en la experiencia de servicio como consecuencia de incompetencia mecanográfica.
 
 
 # Figuras
