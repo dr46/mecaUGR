@@ -168,27 +168,68 @@ pre code {
 </div>
 
 
+<div id="introducción" class="section level1">
+<h1>Introducción</h1>
 <p>Este proyecto tiene como</p>
+</div>
 <div id="mapa-de-variables" class="section level1">
 <h1>Mapa de variables</h1>
+<p>Seguidamente se listan los códigos de las variables contenidas en el archivo principal de datos de este proyecto (<a href="https://osf.io/ftkuj">meca.csv</a>). El listado contiene el nombre de la variable en el mencionado archivo y una descripción del significado de la variable.</p>
 <ul>
-<li>caso: caso</li>
-<li>caso.o: caso.o</li>
-<li>grado: grado</li>
-<li>fecha: Fecha</li>
-<li>mtd: ¿Sabes mecanografiar usando todos los dedos?</li>
-<li>msm: ¿Sabes mecanografiar utilizando todos los dedos sin mirar el teclado?</li>
-<li>vel: Indica cuál ha sido la velocidad que te ha indicado el test que acabas de realizar</li>
-<li>pre: Indica el porcentaje de precisión que te ha salido tras la realización del test</li>
-<li>curso: ¿Has realizado alguna vez un curso de mecanografía?</li>
-<li>donde: Si la respuesta a la pregunta anterior fue Sí, indica dónde.</li>
-<li>util: ¿Crees que es útil saber mecanografiar?</li>
-<li>aprender: ¿Te gustaría aprender a mecanografiar?</li>
-<li>empleo: ¿Crees que mecanografiar puede incrementar tu empleabilidad (posibilidades de encontrar empleo)?</li>
-<li>formal: ¿Crees que debería enseñarse mecanografía en la educación formal?</li>
-<li>nivel: Si la respuesta a la pregunta anterior fue sí, indica cuándo o en qué nivel educativo.</li>
-<li>servicio: ¿Crees que los servicios que te ha prestado alguna vez un profesional se han visto mermados por su falta de competencia mecanográfica?</li>
-<li>servicio.donde: Si la respuesta a la pregunta anterior es Sí, por favor, indica brevemente el servicio en el que sentiste así.</li>
+<li><p>caso: es el código inequívoco que identifica cada caso en el estudio.</p></li>
+<li><p>caso.o: es el número de caso inicial teniendo en cuenta los tres grupos iniciales de datos (los procedentes de logopedia, pedagogía y psicología).</p></li>
+<li><p>grado: representa el grado en el que se recogieron los datos. Cada una de las etiquetas se refiere a lo siguiente:</p>
+<ul>
+<li>Logopedia: Grado en Logopedia.</li>
+<li>Psicología: Grado en Psicología.</li>
+<li>Pedagogía: Grado en Pedagogía.</li>
+</ul></li>
+<li><p>fecha: indica la fecha en que el participante completó la encuesta.</p></li>
+<li><p>mtd: esta variable se refiere a la pregunta <em>¿Sabes mecanografiar usando todos los dedos?</em>. Sus posibles respuestas fueron:</p>
+<ul>
+<li>Sí.</li>
+<li>No.</li>
+</ul></li>
+<li><p>msm: esta variable se refiere a la pregunta <em>¿Sabes mecanografiar utilizando todos los dedos sin mirar el teclado?</em> y sus respuestas posibles fueron:</p>
+<ul>
+<li>Sí.</li>
+<li>No.</li>
+</ul></li>
+<li><p>vel: indica cuál fue la velocidad que obtuvo el participante en un test <em>online</em> de mecanografía.</p></li>
+<li><p>pre: indica cuál fue la precisión que obtuvo el participante en un test <em>online</em> de mecanografía.</p></li>
+<li><p>curso: esta variable se refiere a la pregunta <em>¿Has realizado alguna vez un curso de mecanografía?</em> y sus respuestas posibles fueron:</p>
+<ul>
+<li>Sí.</li>
+<li>No.</li>
+</ul></li>
+<li><p>donde: esta variable recogió texto libre sobre pa pregunta anterior (<em>curso</em>) en caso de que la respuesta a esta pregunta precedente hubiese sido positiva.</p></li>
+<li><p>util: esta variable se refiere a la pregunta <em>¿Crees que es útil saber mecanografiar?</em> y sus respuestas posibles fueron:</p>
+<ul>
+<li>Sí.</li>
+<li>No.</li>
+</ul></li>
+<li><p>aprender: esta variable se refiere a la pregunta <em>¿Te gustaría aprender a mecanografiar?</em> y sus respuestas posibles fueron:</p>
+<ul>
+<li>Sí.</li>
+<li>No.</li>
+</ul></li>
+<li><p>empleo: esta variable se refiere a la pregunta <em>¿Crees que mecanografiar puede incrementar tu empleabilidad (posibilidades de encontrar empleo)?</em> y sus respuestas posibles fueron:</p>
+<ul>
+<li>Sí.</li>
+<li>No.</li>
+</ul></li>
+<li><p>formal: esta variable se refiere a la pregunta <em>¿Crees que debería enseñarse mecanografía en la educación formal?</em> y sus respuestas posibles fueron:</p>
+<ul>
+<li>Sí.</li>
+<li>No.</li>
+</ul></li>
+<li><p>nivel: esta variable recoge la explicación pertinente a la pregunta precedente (<em>formal</em>) en caso de que la respuesta a esta pregunta hubiese sido afirmativa.</p></li>
+<li><p>servicio: esta variabe se refiere a la pregunta <em>¿Crees que los servicios que te ha prestado alguna vez un profesional se han visto mermados por su falta de competencia mecanográfica?</em> y sus respuestas posibles fueron:</p>
+<ul>
+<li>Sí.</li>
+<li>No.</li>
+</ul></li>
+<li><p>servicio.donde: esta variabe recoge información complementaria explicativa para el caso en que la respuesta a la pregunta anterior (<em>nivel</em>) hubiese sido afirmativa.</p></li>
 </ul>
 </div>
 <div id="archivos-de-código" class="section level1">
@@ -198,11 +239,35 @@ pre code {
 <ul>
 <li><p><a href="https://osf.io/2y68c">01_descriptivos.R</a>: este archivo explora las variables cuantitativas y categóricas del arhivo de datos <a href="https://osf.io/ftkuj">meca.csv</a>.</p></li>
 <li><p><a href="https://osf.io/hk65j">02_tc.R</a>: este archivo genera tablas de contingencia y gráficos que representan tales resultados.</p></li>
+<li><p><a href="https://osf.io/2pj46">03_rl.R</a>: este archivo de código genera el gráfico de dispersión que ponte en relación la velocidad y la precisión de mecanografiado. También estima la correlación de Pearson y el modelo de regresión lineal simple que relaciona a ambas variables.</p></li>
+<li><p><a href="https://osf.io/wahvf">04_cuando.R</a>: este archivo analiza la tabla <a href="https://osf.io/yre5h">snem.csv</a> que contiene la propuesta que plantean los participantes del estudio en lo relativo al aprendizaje de la mecanografía en el contexto educativo formal.</p></li>
+<li><p><a href="https://osf.io/rc6e7">05_donde.R</a>: este archivo analiza la tabla <a href="https://osf.io/rxfyt">dems.csv</a> que contiene la categorización de las respuestas que dan los participantes a la pregunta planteada en la variable <em>servicio.donde</em>.</p></li>
 </ul>
 </div>
 <div id="archivos-de-datos" class="section level1">
 <h1>Archivos de datos</h1>
+<p>Todos los archivos de datos se encuentran contenidos en la carpeta <em>dat</em>.</p>
 <p>Los datos brutos de este proyecto están contenidos en el archivo <a href="https://osf.io/ftkuj">meca.csv</a>. Nótese que este documento podría no visualizarse correctamente en la web porque está codificado con el formato “UTF-8”. En cualquiera de los casos, los datos son correctamente visibles al importar el archivo con R.</p>
+<p>Para re-codificar las respuestas a la variable <em>nivel</em> se creó una nueva base de datos que está contenida en el archivo de datos <a href="https://osf.io/yre5h">snem.csv</a>. En esta base de datos, la variable <em>caso</em> puede utilizarse para vincular esta tabla de datos con la base de datos <a href="https://osf.io/ftkuj">meca.csv</a>. La columna <em>snm</em> se creó para identificar el nivel educativo mínimo en que cada participante considera deseable el aprendizaje de la mecanografía dentro del ámbito de la enseñanza formal. Incluye tres posibles valores:</p>
+<ul>
+<li><p>Primaria: esta categoría hace referencia a propuestas de enseñanza de la mecanografía en el colegio o en la enseñanza primaria obligatoria.</p></li>
+<li><p>ESO: esta categoría hace referencia a propuestas relacionadas con la enseñanza secundaria obligatoria.</p></li>
+<li><p>Post-obligatoria: esta categoría hace referencia a propuestas en las que se considera deseable que se aprenda a mecanografía tras la enseñanza secundaria obligatoria.</p></li>
+</ul>
+<p>Por su parte, para recoger la recodificación de la variable <em>sevicio.donde</em> se creó una nueva tabla que se almacenó en el archivo <a href="https://osf.io/rxfyt">dems.csv</a>. Esta tabla tiene dos columnas: <em>caso</em> y <em>demc</em>. La columna <em>demc</em> indica el lugar en el que el participante experimentó un declive en la experiencia de servicio como consecuencia de incompetencia mecanográfica. Nótese que en la versión web podrían no verse correctamente las tildes porque el archivo está codificado en formato “UTF-8”.</p>
+</div>
+<div id="figuras" class="section level1">
+<h1>Figuras</h1>
+<p>Las figuras generadas en este proyecto se encuentran, en formato vectorial (documentos PDF), en la carpeta <em>fig</em>. Las figuras incluidas en la carpeta son las siguientes.</p>
+<ul>
+<li><p>dispersion.pdf: contiene el gráfico de dispersión junto con el modelo de regresión lineal que relaciona la velocidad y la precisión de mecanografiado.</p></li>
+<li><p>saber.pdf: es un gráfico de barras generado a partir de la tabla de contingencia que pone en relación el mirar al teclado mientras se mecanografía y el usar (o no) todos los dedos mientras se mecanografía.</p></li>
+<li><p>utilidad.pdf: es un gráfico de barras generado a partir de la tabla de contingencia que pone en relación el mirar al teclado mientras se mecanografía y el considerar (o no) que la mecanografía es útil.</p></li>
+</ul>
+</div>
+<div id="pre-procesado-de-datos" class="section level1">
+<h1>Pre-procesado de datos</h1>
+<p>Se eliminaron los valores que aparecían en dos celdas del archivo de datos porque se consideraron erróneos o incompatibles con lo esperado y observado en el resto del conjunto de datos. En concreto, se eliminó la velocidad del caso 43 (cuyo valor registrado original fue 0.93) y la precisión del caso 104 (cuyo valor original 46.4). En el primero de los casos, no tiene sentido que la velocidad de mecanografiado sea 0.93 que supondría no llegar a escribir una palabra por minuto. En el segundo caso, parece que la persona que completó el registro 104 repitió el valor de la velocidad en el lugar de la precisión. Además, esa velocidad reportada parece considerablemente reducida si tomamos en consideración el resto de las velocidades de mecanografiado reportadas.</p>
 </div>
 
 
