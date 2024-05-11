@@ -16,7 +16,7 @@ Este proyecto tiene como objetivo realizar un análisis exploratorio de las comp
 
 Una versión de la información que aparece contenida en esta web puede encontrarse también (en formato PDF) en el archivo [README.pdf](https://osf.io/hs5rp).
 
-# Mapa de variables
+# Mapa de variables 
 
 Seguidamente se listan los códigos de las variables contenidas en el archivo principal de datos de este proyecto ([meca.csv](https://osf.io/ftkuj)). El listado contiene el nombre de la variable en el mencionado archivo y una descripción del significado de la variable. Hay que hacer notar que el código fuente del formulario electrónico utilizado está disponible en el archivo que se aloja en la web https://osf.io/y85t2.
 
