@@ -1,18 +1,24 @@
 ---
 title: 'mecaUGR: Exploración de las competencias mecanográficas en la Universidad de Granada: un estudio prospectivo'
+author: Ana María Ruiz-Ruano García (1) & Jorge López Puga (2)
 output:
-  pdf_document: default
-  word_document: default
   html_document: default
+  word_document: default
+  pdf_document: default
 ---
+
+1 https://orcid.org/0000-0002-7260-0588  
+2 https://orcid.org/0000-0003-0693-0092 
 
 # Introducción
 
-Este proyecto tiene como objetivo realizar un análisis exploratorio de las competencias mecanográficas en los estudiantes de grado de la Universidad de Granada. Los resultados de esta investigación se exponen en el capítulo de libro titulado "" que se ha publicado en el libro "" (Editorial ... y editado por ...).
+Este proyecto tiene como objetivo realizar un análisis exploratorio de las competencias mecanográficas en los estudiantes de grado de la Universidad de Granada. Los resultados de esta investigación se exponen en el capítulo de libro titulado "Análisis y mejora de la competencia mecanográfica en la universidad" que se ha publicado en el libro "" (Editorial ... y editado por ...). 
+
+Una versión de la información que aparece contenida en esta web puede encontrarse también (en formato PDF) en el archivo [README.pdf](https://osf.io/hs5rp).
 
 # Mapa de variables
 
-Seguidamente se listan los códigos de las variables contenidas en el archivo principal de datos de este proyecto ([meca.csv](https://osf.io/ftkuj)). El listado contiene el nombre de la variable en el mencionado archivo y una descripción del significado de la variable.
+Seguidamente se listan los códigos de las variables contenidas en el archivo principal de datos de este proyecto ([meca.csv](https://osf.io/ftkuj)). El listado contiene el nombre de la variable en el mencionado archivo y una descripción del significado de la variable. Hay que hacer notar que el código fuente del formulario electrónico utilizado está disponible en el archivo que se aloja en la web https://osf.io/y85t2.
 
 -   caso: es el código inequívoco que identifica cada caso en el estudio.
 
@@ -112,11 +118,11 @@ Por su parte, para recoger la recodificación de la variable *sevicio.donde* se 
 
 Las figuras generadas en este proyecto se encuentran, en formato vectorial (documentos PDF), en la carpeta *fig*. Las figuras incluidas en la carpeta son las siguientes.
 
--   dispersion.pdf: contiene el gráfico de dispersión junto con el modelo de regresión lineal que relaciona la velocidad y la precisión de mecanografiado.
+-   [dispersion.pdf](https://osf.io/nfu8h): contiene el gráfico de dispersión junto con el modelo de regresión lineal que relaciona la velocidad y la precisión de mecanografiado.
 
--   saber.pdf: es un gráfico de barras generado a partir de la tabla de contingencia que pone en relación el mirar al teclado mientras se mecanografía y el usar (o no) todos los dedos mientras se mecanografía.
+-   [saber.pdf](https://osf.io/ekhq5): es un gráfico de barras generado a partir de la tabla de contingencia que pone en relación el mirar al teclado mientras se mecanografía y el usar (o no) todos los dedos mientras se mecanografía.
 
--   utilidad.pdf: es un gráfico de barras generado a partir de la tabla de contingencia que pone en relación el mirar al teclado mientras se mecanografía y el considerar (o no) que la mecanografía es útil.
+-   [utilidad.pdf](https://osf.io/s5uvd): es un gráfico de barras generado a partir de la tabla de contingencia que pone en relación el mirar al teclado mientras se mecanografía y el considerar (o no) que la mecanografía es útil.
 
 # Pre-procesado de datos
 
