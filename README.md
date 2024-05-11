@@ -2,9 +2,9 @@
 title: 'mecaUGR: Exploración de las competencias mecanográficas en la Universidad de Granada: un estudio prospectivo'
 author: Ana María Ruiz-Ruano García (1) & Jorge López Puga (2)
 output:
-  html_document: default
-  word_document: default
   pdf_document: default
+  word_document: default
+  html_document: default
 ---
 
 1 https://orcid.org/0000-0002-7260-0588  
